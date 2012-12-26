@@ -1,0 +1,79 @@
+$g: 16px;
+@import "normalize", "typo";
+
+h2, h3 {
+	display: inline-block;
+}
+
+h2 {
+	margin-right: 0.25em;
+}
+
+h3 {
+	opacity: 0.5;
+}
+
+.root {
+	position: relative;
+	min-height: 100%;
+}
+
+.pronunciation {
+	max-width: 24rem;
+
+	margin: 0;
+	padding: 0 1rem;
+
+	> strong {
+		display: block;
+	}
+}
+
+
+@media screen and (max-width: 480px) {
+	html {
+		font-size: 100%;
+	}
+}
+
+
+body {
+	-webkit-animation: body-anim 2s ease-out;
+}
+
+h1 {
+	-webkit-animation: h1-anim 2s ease-out;
+}
+
+@-webkit-keyframes body-anim {
+	0% {
+		background: #222;
+	}
+
+	60% {
+		background: #222;
+	}
+
+	100% {
+		background: #fff;
+	}
+}
+
+@-webkit-keyframes h1-anim {
+	0% {
+		color: #222;
+	}
+
+	20% {
+		color: #222;
+	}
+
+	60% {
+		color: #fff;
+	}
+
+	100% {
+		color: #222;
+	}
+}
+

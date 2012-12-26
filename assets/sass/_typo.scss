@@ -1,0 +1,55 @@
+html {
+	font-size: 125%;
+}
+
+body {
+	font-family: Palatino, "Palatino Linotype", Georgia, serif;
+
+	font-size: 18px;
+	font-size: 0.9em;
+	line-height: 32px;
+	line-height: 1.6em;
+
+	color: #222;
+}
+
+b, strong {
+	font-weight: 600;
+}
+
+//	Vertical Margins
+
+hgroup {
+	padding: 24px 0 0;
+	padding: 1.2rem 0 0;
+}
+
+h1, h2, h3 {
+	margin: 0;
+}
+
+h1 {
+	margin: 0 0 0.6rem;
+}
+
+//
+
+h1 {
+	font-size: 37px;
+	font-size: 1.85rem;
+	line-height: 40px;
+	line-height: 2rem;
+
+	font-weight: normal;
+}
+
+h2, h3 {
+	font-size: 23px;
+	font-size: 1.15rem;
+	line-height: 20px;
+	line-height: 1rem;
+}
+
+h3 {
+	font-weight: normal;
+}
